@@ -1,5 +1,8 @@
 package com.examples;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Aadhar implements Identifier {
 
 	public Aadhar() {

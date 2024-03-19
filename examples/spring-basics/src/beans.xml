@@ -6,8 +6,10 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
+	<context:component-scan base-package="com"></context:component-scan>
+
 	<!--  Configure all the java beans here -->
 	<!--  by default spring creates singleton object -->
-	<bean id = "b1" scope = "prototype" class = "com.examples.Aadhar"></bean>
-
+	<!-- <bean id = "b1" scope = "prototype" class = "com.examples.Aadhar"></bean>
+	<bean id = "b2" class = "com.examples.EmployeeService"></bean> -->
 </beans>
